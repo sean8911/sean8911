@@ -1,0 +1,76 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sean Ooi GitHub Profile</title>
+  <desc id="desc">Developer, builder, and lifelong learner turning ideas into useful projects.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.52" stop-color="#17122B"/>
+      <stop offset="1" stop-color="#071D22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="45" y1="0" x2="1140" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(925 145) rotate(90) scale(150 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title { font: 800 54px "Segoe UI", Arial, sans-serif; letter-spacing: 2px; fill: #F8FAFC; }
+      .subtitle { font: 700 20px "Segoe UI", Arial, sans-serif; letter-spacing: 3px; fill: #67E8F9; }
+      .body { font: 400 17px "Segoe UI", Arial, sans-serif; fill: #CBD5E1; }
+      .small { font: 600 13px "Segoe UI", Arial, sans-serif; letter-spacing: 1px; fill: #94A3B8; }
+      .chip { font: 600 14px "Segoe UI", Arial, sans-serif; fill: #E2E8F0; }
+      .pulse { animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .delay1 { animation-delay: .5s; } .delay2 { animation-delay: 1s; } .delay3 { animation-delay: 1.5s; }
+      .flow { stroke-dasharray: 7 12; animation: flow 2.4s linear infinite; }
+      @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.92); } 50% { opacity:1; transform:scale(1.08); } }
+      @keyframes flow { to { stroke-dashoffset:-38; } }
+      @media (prefers-reduced-motion: reduce) { .pulse,.flow { animation:none; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="298" rx="24" fill="url(#background)" stroke="#30363D" stroke-width="2"/>
+  <ellipse cx="925" cy="145" rx="260" ry="150" fill="url(#orb)"/>
+  <rect x="48" y="31" width="310" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="48" y="96" class="title">SEAN OOI</text>
+  <text x="51" y="132" class="subtitle">DEVELOPER • BUILDER • LEARNER</text>
+  <text x="50" y="169" class="body">Turning curiosity into code, one project at a time.</text>
+
+  <g>
+    <rect x="48" y="193" width="104" height="34" rx="17" fill="#161B22" stroke="#4C3B78"/>
+    <text x="100" y="215" text-anchor="middle" class="chip">IDEAS</text>
+    <rect x="162" y="193" width="104" height="34" rx="17" fill="#161B22" stroke="#235B72"/>
+    <text x="214" y="215" text-anchor="middle" class="chip">CODE</text>
+    <rect x="276" y="193" width="116" height="34" rx="17" fill="#161B22" stroke="#1E665F"/>
+    <text x="334" y="215" text-anchor="middle" class="chip">GROWTH</text>
+  </g>
+  <text x="50" y="260" class="small">LEARN  →  BUILD  →  SHARE  →  IMPROVE</text>
+
+  <g stroke-width="2" opacity=".65">
+    <path d="M725 150L815 92L905 150L1000 92L1090 150" stroke="url(#accent)"/>
+    <path d="M725 150L815 208L905 150L1000 208L1090 150" stroke="url(#accent)"/>
+  </g>
+  <path class="flow" d="M725 150L815 92L905 150L1000 92L1090 150" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <path class="flow" d="M725 150L815 208L905 150L1000 208L1090 150" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <circle class="pulse" cx="725" cy="150" r="18" fill="#0D1117" stroke="#8B5CF6" stroke-width="4" filter="url(#glow)"/>
+  <circle class="pulse delay1" cx="815" cy="92" r="15" fill="#0D1117" stroke="#6366F1" stroke-width="3"/>
+  <circle class="pulse delay2" cx="815" cy="208" r="15" fill="#0D1117" stroke="#38BDF8" stroke-width="3"/>
+  <circle class="pulse delay3" cx="905" cy="150" r="22" fill="#0D1117" stroke="#38BDF8" stroke-width="4" filter="url(#glow)"/>
+  <circle class="pulse delay1" cx="1000" cy="92" r="15" fill="#0D1117" stroke="#2DD4BF" stroke-width="3"/>
+  <circle class="pulse delay2" cx="1000" cy="208" r="15" fill="#0D1117" stroke="#2DD4BF" stroke-width="3"/>
+  <circle class="pulse delay3" cx="1090" cy="150" r="18" fill="#0D1117" stroke="#2DD4BF" stroke-width="4" filter="url(#glow)"/>
+
+  <text x="725" y="190" text-anchor="middle" class="small">DREAM</text>
+  <text x="905" y="196" text-anchor="middle" class="small">BUILD</text>
+  <text x="1090" y="190" text-anchor="middle" class="small">SHIP</text>
+</svg>
+
