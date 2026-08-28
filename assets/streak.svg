@@ -1,0 +1,10 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sean Ooi GitHub streak statistics</title>
+  <desc id="desc">Placeholder shown until the automated streak workflow generates live statistics.</desc>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="#0D1117" stroke="#30363D"/>
+  <circle cx="247.5" cy="73" r="38" stroke="#6C63FF" stroke-width="5"/>
+  <path d="M248 45C248 45 261 59 261 73C261 85 255 92 248 92C241 92 234 85 234 73C234 65 238 57 248 45Z" fill="#6C63FF" opacity=".9"/>
+  <text x="247.5" y="135" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">GitHub streak loading</text>
+  <text x="247.5" y="158" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Run the Update GitHub Streak Stats workflow</text>
+</svg>
+
