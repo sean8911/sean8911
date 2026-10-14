@@ -54,40 +54,38 @@ I'm currently building a strong foundation in modern development while growing a
 <tr>
 <td width="50%" valign="top">
 
-### 🚀 First Featured Project
+### 📰 [NewsLens AI](https://github.com/sean8911/NewsLens-AI)
 
-My first public project will appear here soon.
+A news intelligence platform for collecting reporting, finding relevant articles, and asking questions with inspectable citations.
 
-I plan to use this space to explain:
+- RSS collection and article analysis
+- Hybrid keyword and vector search
+- Grounded chat with source excerpts and citations
+- Event clustering, timelines, and publisher comparisons
 
-- The problem I wanted to solve
-- The approach and tools I chose
-- What I learned while building it
-- How the project can be used or improved
+**Tech:** Next.js, TypeScript, FastAPI, PostgreSQL, Qdrant, local NLP models
 
-**Status:** `In progress`
+**Status:** `Local development application`
 
 </td>
 <td width="50%" valign="top">
 
-### 🧪 Experiments & Learning
+### 🛠️ [MakerOps AI](https://github.com/sean8911/makerops-ai)
 
-Small experiments are where ideas become skills.
+An operations assistant for small 3D-printing workshops, connecting job requirements, inventory, printer capacity, and pricing.
 
-This section will feature:
+- Printer, filament, customer, and job management
+- Deterministic production estimates and quotations
+- LangGraph workflows with human approval
+- STL analysis, scheduling previews, and PDF quotation export
 
-- Coding exercises and prototypes
-- AI and automation experiments
-- Useful utilities
-- Notes from technical deep dives
+**Tech:** React, TypeScript, FastAPI, LangGraph, PostgreSQL, OpenAI Responses API
 
-**Status:** `Building in public`
+**Status:** `Local development application`
 
 </td>
 </tr>
 </table>
-
-> As repositories are published, replace these cards with links, screenshots, results, and the real technology used.
 
 ---
 
