@@ -21,16 +21,16 @@ My work spans model experimentation, data pipelines, backend services, and web a
 
 ## Featured Work
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| **[MedVoice Assist](https://github.com/sean8911/medvoice-assist)** | Speech-enabled NLP research prototype combining Whisper transcription, symptom extraction, a trained BioBERT classifier, and rule-based responses. Research use only. | React · FastAPI · PyTorch · Transformers · Whisper |
-| **[NewsLens AI](https://github.com/sean8911/NewsLens-AI)** | News intelligence application with RSS ingestion, hybrid keyword/vector search, citation-grounded chat, event timelines, and publisher comparisons. | Next.js · TypeScript · FastAPI · PostgreSQL · Qdrant |
-| **[MakerOps AI](https://github.com/sean8911/makerops-ai)** | Operations assistant for 3D-printing workshops, connecting inventory, printer capacity, deterministic quotations, and LangGraph workflows with human approval. | React · TypeScript · FastAPI · LangGraph · PostgreSQL |
-| **[BakiBuddy](https://github.com/sean8911/bakibuddy)** | Personal finance development preview for Malaysian students and young adults, with local budgeting, spending insights, reviewed imports, OCR, and an optional consent-based AI assistant. | React Native · Expo · TypeScript · SQLite · Groq |
-| **[Banking Analytics](https://github.com/sean8911/banking-app)** | Interactive analytics application for exploring campaign data through PCA and clustering, alongside customer-service text themes using NMF. | JavaScript · Plotly.js · HTML · CSS |
-| **[Skin Lesion Classification](https://github.com/sean8911/skin-lesion-classification)** | Compares custom CNNs with KAN–Vision Transformer hybrids for multi-class skin lesion classification, with training analysis and attention visualizations. | PyTorch · timm · scikit-learn · OpenCV |
-| **[dPickleBall RL Agent](https://github.com/sean8911/dpickleball-rl-agent)** | PPO agent developed through a calibrated simulator, curriculum learning, Unity fine-tuning, and self-play. Placed third among thirteen competition groups. | PyTorch · Stable-Baselines3 · Gymnasium · OpenCV |
-| **[Aerial Pineapple Detection](https://github.com/sean8911/aerial_pineapple_drone)** | Drone-imagery pipeline that tiles georeferenced orthomosaics, detects and counts pineapple plants, and exports mapped detections as shapefiles. | YOLOv10 · Ultralytics · Rasterio · GeoPandas |
+| Project | What it does |
+| --- | --- |
+| **[MedVoice Assist](https://github.com/sean8911/medvoice-assist)** |Speech-enabled NLP research prototype combining Whisper transcription, symptom extraction, a trained BioBERT classifier, and rule-based responses. Research use only.<br>**Stack:** React · FastAPI · PyTorch · Transformers · Whisper |
+| **[NewsLens AI](https://github.com/sean8911/NewsLens-AI)** |News intelligence application with RSS ingestion, hybrid keyword/vector search, citation-grounded chat, event timelines, and publisher comparisons.<br>**Stack:** Next.js · TypeScript · FastAPI · PostgreSQL · Qdrant |
+| **[MakerOps AI](https://github.com/sean8911/makerops-ai)** |Operations assistant for 3D-printing workshops, connecting inventory, printer capacity, deterministic quotations, and LangGraph workflows with human approval.<br>**Stack:** React · TypeScript · FastAPI · LangGraph · PostgreSQL |
+| **[BakiBuddy](https://github.com/sean8911/bakibuddy)** |Personal finance development preview for Malaysian students and young adults, with local budgeting, spending insights, reviewed imports, OCR, and an optional consent-based AI assistant.<br>**Stack:** React Native · Expo · TypeScript · SQLite · Groq |
+| **[Banking Analytics](https://github.com/sean8911/banking-app)** |Interactive analytics application for exploring campaign data through PCA and clustering, alongside customer-service text themes using NMF.<br>**Stack:** JavaScript · Plotly.js · HTML · CSS |
+| **[Skin Lesion Classification](https://github.com/sean8911/skin-lesion-classification)** |Compares custom CNNs with KAN–Vision Transformer hybrids for multi-class skin lesion classification, with training analysis and attention visualizations.<br>**Stack:** PyTorch · timm · scikit-learn · OpenCV |
+| **[dPickleBall RL Agent](https://github.com/sean8911/dpickleball-rl-agent)** |PPO agent developed through a calibrated simulator, curriculum learning, Unity fine-tuning, and self-play. Placed third among thirteen competition groups.<br>**Stack:** PyTorch · Stable-Baselines3 · Gymnasium · OpenCV |
+| **[Aerial Pineapple Detection](https://github.com/sean8911/aerial_pineapple_drone)** |Drone-imagery pipeline that tiles georeferenced orthomosaics, detects and counts pineapple plants, and exports mapped detections as shapefiles.<br>**Stack:** YOLOv10 · Ultralytics · Rasterio · GeoPandas |
 
 [Explore all repositories →](https://github.com/sean8911?tab=repositories)
 

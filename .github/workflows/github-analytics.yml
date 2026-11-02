@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&theme=github_dark&hide_border=false&disable_animations=true
+          options: username=${{ github.repository_owner }}&custom_title=Sean%20Ooi%27s%20GitHub%20Stats&show_icons=true&hide_rank=true&include_all_commits=true&theme=github_dark&hide_border=false&disable_animations=true
           path: assets/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
