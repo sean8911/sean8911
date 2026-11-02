@@ -1,176 +1,119 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Sean Ooi — Applied AI, natural language processing, and data analytics">
+</p>
 
-<img
-  src="https://raw.githubusercontent.com/sean8911/sean8911/main/assets/header.svg"
-  width="100%"
-  alt="Sean Ooi — developer, builder, and lifelong learner"
-/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<a href="https://github.com/sean8911">
-  <img src="https://img.shields.io/badge/GitHub-sean8911-181717?style=for-the-badge&logo=github&logoColor=white" alt="Sean Ooi on GitHub" />
-</a>
-
-<img src="https://komarev.com/ghpvc/?username=sean8911&style=for-the-badge&color=6C63FF" alt="Profile views" />
-
-</div>
-
----
+<p align="center">
+  <a href="#about-me">About</a> ·
+  <a href="#featured-work">Featured Work</a> ·
+  <a href="#tech-stack">Tech Stack</a> ·
+  <a href="#github-analytics">GitHub Analytics</a>
+</p>
 
 ## About Me
 
-I'm **Sean Ooi**, a curious developer who enjoys learning by building.
+I'm **Sean Ooi**, a developer interested in **Generative AI, natural language processing, data analytics, and AI agents**. I build applications that turn complex information into useful tools, from citation-grounded news search and speech-enabled NLP to operations workflows and personal finance.
 
-This profile is where I document my progress, turn ideas into working projects, and share what I discover along the way.
+My work spans model experimentation, data pipelines, backend services, and web and mobile interfaces. I value clear evaluation, traceable outputs, and human review in AI-assisted workflows.
 
-- Exploring **software development and artificial intelligence**
-- Learning through **hands-on projects and experiments**
-- Interested in building products that are **useful, clear, and enjoyable to use**
-- Always improving one commit at a time
+- **Generative AI & agents:** retrieval-augmented generation, tool calling, and workflows with explicit approval.
+- **NLP & speech:** information retrieval, text classification, multilingual processing, and speech-to-text.
+- **Data analytics & machine learning:** exploratory analysis, visualization, computer vision, and reinforcement learning.
 
----
+## Featured Work
 
-## Current Focus
+| Project | What it does | Stack |
+| --- | --- | --- |
+| **[MedVoice Assist](https://github.com/sean8911/medvoice-assist)** | Speech-enabled NLP research prototype combining Whisper transcription, symptom extraction, a trained BioBERT classifier, and rule-based responses. Research use only. | React · FastAPI · PyTorch · Transformers · Whisper |
+| **[NewsLens AI](https://github.com/sean8911/NewsLens-AI)** | News intelligence application with RSS ingestion, hybrid keyword/vector search, citation-grounded chat, event timelines, and publisher comparisons. | Next.js · TypeScript · FastAPI · PostgreSQL · Qdrant |
+| **[MakerOps AI](https://github.com/sean8911/makerops-ai)** | Operations assistant for 3D-printing workshops, connecting inventory, printer capacity, deterministic quotations, and LangGraph workflows with human approval. | React · TypeScript · FastAPI · LangGraph · PostgreSQL |
+| **[BakiBuddy](https://github.com/sean8911/bakibuddy)** | Personal finance development preview for Malaysian students and young adults, with local budgeting, spending insights, reviewed imports, OCR, and an optional consent-based AI assistant. | React Native · Expo · TypeScript · SQLite · Groq |
+| **[Banking Analytics](https://github.com/sean8911/banking-app)** | Interactive analytics application for exploring campaign data through PCA and clustering, alongside customer-service text themes using NMF. | JavaScript · Plotly.js · HTML · CSS |
+| **[Skin Lesion Classification](https://github.com/sean8911/skin-lesion-classification)** | Compares custom CNNs with KAN–Vision Transformer hybrids for multi-class skin lesion classification, with training analysis and attention visualizations. | PyTorch · timm · scikit-learn · OpenCV |
+| **[dPickleBall RL Agent](https://github.com/sean8911/dpickleball-rl-agent)** | PPO agent developed through a calibrated simulator, curriculum learning, Unity fine-tuning, and self-play. Placed third among thirteen competition groups. | PyTorch · Stable-Baselines3 · Gymnasium · OpenCV |
+| **[Aerial Pineapple Detection](https://github.com/sean8911/aerial_pineapple_drone)** | Drone-imagery pipeline that tiles georeferenced orthomosaics, detects and counts pineapple plants, and exports mapped detections as shapefiles. | YOLOv10 · Ultralytics · Rasterio · GeoPandas |
 
-I'm currently building a strong foundation in modern development while growing a portfolio of practical projects.
+[Explore all repositories →](https://github.com/sean8911?tab=repositories)
 
-<p>
-  <img src="https://img.shields.io/badge/Learning-Building%20in%20Public-6C63FF?style=flat-square" alt="Building in public" />
-  <img src="https://img.shields.io/badge/Focus-Software%20Development-00BFA6?style=flat-square" alt="Software development" />
-  <img src="https://img.shields.io/badge/Exploring-Artificial%20Intelligence-FF6B6B?style=flat-square" alt="Artificial intelligence" />
-  <img src="https://img.shields.io/badge/Mindset-Lifelong%20Learning-007ACC?style=flat-square" alt="Lifelong learning" />
+## Tech Stack
+
+### Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+### AI, NLP & Agents
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-7354A6?style=flat-square&logo=huggingface&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-A65E00?style=flat-square&logo=scikitlearn&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-7354A6?style=flat-square)
+![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat-square)
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-B84316?style=flat-square)
+
+Computer vision and reinforcement learning: **OpenCV · Ultralytics / YOLO · timm · Stable-Baselines3 · Gymnasium**.
+
+### Web & Mobile
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-181717?style=flat-square&logo=nextdotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0E7490?style=flat-square&logo=tailwindcss&logoColor=white)
+
+### Data & Backend
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-B32448?style=flat-square&logo=qdrant&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-A52A2A?style=flat-square&logo=sqlalchemy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+Data visualization and geospatial analysis: **Matplotlib · Seaborn · GeoPandas · Rasterio**. API validation and migrations: **Pydantic · Alembic**.
+
+### Development & Quality
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A6675?style=flat-square&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-226E35?style=flat-square)
+![Vitest](https://img.shields.io/badge/Vitest-4D6A16?style=flat-square&logo=vitest&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
+
+## GitHub Analytics
+
+<p align="center">
+  <a href="https://github.com/sean8911?tab=overview">
+    <img src="./assets/github-stats.svg" width="440" alt="Sean Ooi's public GitHub statistics">
+  </a>
+  <a href="https://github.com/sean8911?tab=repositories">
+    <img src="./assets/top-languages.svg" width="360" alt="Language distribution across Sean Ooi's public repositories">
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/streak.svg" width="600" alt="Sean Ooi's GitHub contribution streak">
+</p>
+
+*Statistics and language cards refresh daily from public GitHub data. Language distribution reflects repository code, including notebooks, rather than proficiency.*
+
+### Contribution Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sean8911/sean8911/output/github-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/sean8911/sean8911/output/github-snake.svg" alt="Animated visualization of Sean Ooi's GitHub contribution activity">
+  </picture>
 </p>
 
 ---
 
-# Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📰 [NewsLens AI](https://github.com/sean8911/NewsLens-AI)
-
-A news intelligence platform for collecting reporting, finding relevant articles, and asking questions with inspectable citations.
-
-- RSS collection and article analysis
-- Hybrid keyword and vector search
-- Grounded chat with source excerpts and citations
-- Event clustering, timelines, and publisher comparisons
-
-**Tech:** Next.js, TypeScript, FastAPI, PostgreSQL, Qdrant, local NLP models
-
-**Status:** `Local development application`
-
-</td>
-<td width="50%" valign="top">
-
-### 🛠️ [MakerOps AI](https://github.com/sean8911/makerops-ai)
-
-An operations assistant for small 3D-printing workshops, connecting job requirements, inventory, printer capacity, and pricing.
-
-- Printer, filament, customer, and job management
-- Deterministic production estimates and quotations
-- LangGraph workflows with human approval
-- STL analysis, scheduling previews, and PDF quotation export
-
-**Tech:** React, TypeScript, FastAPI, LangGraph, PostgreSQL, OpenAI Responses API
-
-**Status:** `Local development application`
-
-</td>
-</tr>
-</table>
-
----
-
-## Currently Exploring
-
-### Languages & Web
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-</p>
-
-### Development Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code" />
-</p>
-
----
-
-## Areas of Interest
-
-<p>
-  <img src="https://img.shields.io/badge/Software%20Development-Code-6C63FF?style=flat-square" alt="Software development" />
-  <img src="https://img.shields.io/badge/Artificial%20Intelligence-AI-00BFA6?style=flat-square" alt="Artificial intelligence" />
-  <img src="https://img.shields.io/badge/Automation-Workflows-FF6B6B?style=flat-square" alt="Automation" />
-  <img src="https://img.shields.io/badge/Open%20Source-Community-007ACC?style=flat-square" alt="Open source" />
-  <img src="https://img.shields.io/badge/Product%20Building-Ideas%20to%20Reality-F59E0B?style=flat-square" alt="Product building" />
-</p>
-
----
-
-# GitHub Analytics
-
-<div align="center">
-
-<img height="165"
-     src="https://github-readme-stats.vercel.app/api?username=sean8911&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true"
-     alt="Sean Ooi's GitHub statistics" />
-
-<img height="165"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=sean8911&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
-     alt="Sean Ooi's most used languages" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="./assets/streak.svg" alt="Sean Ooi's GitHub streak" />
-
-</div>
-
----
-
-## My Contribution Graph
-
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/sean8911/sean8911/output/github-snake-dark.svg"
-  alt="Sean Ooi's GitHub contribution snake"
-/>
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 Learn. Build. Share. Improve.
-
-I'm at the beginning of this GitHub journey, and every project here will tell part of the story.
-
-<br/>
-
-<a href="https://github.com/sean8911?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore-My%20Repositories-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="Explore Sean Ooi's repositories" />
-</a>
-
-</div>
-
+Interested in practical AI, NLP, or data-driven applications? Explore the projects above to see the implementation, experiments, and documentation behind the work.

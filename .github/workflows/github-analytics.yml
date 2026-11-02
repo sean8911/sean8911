@@ -1,0 +1,56 @@
+name: Update GitHub Analytics
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/github-analytics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-analytics
+  cancel-in-progress: false
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate public GitHub statistics
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&include_all_commits=true&theme=github_dark&hide_border=false&disable_animations=true
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate public language distribution
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&hide_border=false&disable_animations=true
+          path: assets/top-languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Commit updated analytics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-languages.svg
+          if git diff --cached --quiet; then
+            echo "Analytics are already up to date."
+            exit 0
+          fi
+          git commit -m "Update GitHub analytics cards"
+          git pull --rebase origin main
+          git push origin HEAD:main
